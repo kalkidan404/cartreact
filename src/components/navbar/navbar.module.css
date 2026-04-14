@@ -1,0 +1,30 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 25px;
+  background: #111;
+  color: white;
+}
+
+.links {
+  display: flex;
+  gap: 15px;
+}
+
+.link {
+  color: white;
+  font-weight: bold;
+}
+
+.link:hover {
+  color: #00bcd4;
+}
+
+.cart {
+  background: #00bcd4;
+  padding: 5px 10px;
+  border-radius: 8px;
+  color: black;
+  font-weight: bold;
+}
